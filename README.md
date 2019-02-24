@@ -1,3 +1,18 @@
+##Todo - React App
+below pachages been used to build this app:
+
+- Reach Dom
+- react-router-dom
+- react-dom
+
+- [axios](https://www.npmjs.com/package/axios) : Promise based HTTP client for the browser and node.js
+
+and [JSONPlaceholder](https://jsonplaceholder.typicode.com/)
+JSONPlaceholder is a free online REST API that you can use whenever you need some fake data.
+It's great for tutorials, testing new libraries, sharing code examples, ...
+
+//////////////////////////
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
@@ -66,4 +81,5 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/de
 ### `npm run build` fails to minify
 
 This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+
 # Todo-React-app
