@@ -1,0 +1,58 @@
+
+.App {
+  text-align: center;
+  padding: 16px;
+  font-family: sans-serif;
+
+}
+
+.header-title{
+  margin: 0;
+  padding: 12px;
+}
+.add-todo-form{
+
+  display: flex;
+}
+.add-todo-input{
+  border: 1px solid #d2d2d2;
+  background-color: #d2d2d2;
+  height: 40px;
+  outline: none;
+  flex: 10;
+  border:0;
+  padding: 4px 16px;
+
+}
+.submit-btn{
+  background: #63b363;
+  color: #fff;
+  font-size: 16px;
+  flex: 2;
+  outline: none;
+  border: 0;
+}
+ul{
+   margin:0;
+   padding:0; 
+  }
+input[type="checkbox"] {
+    display:none;
+}
+
+
+input[type="checkbox"] + label span {
+    display:inline-block;
+    width:19px;
+    height:19px;
+    margin:-2px 10px 0 0;
+    vertical-align:middle;
+    background:#ddd;
+    box-shadow: inset 1px 1px 6px 2px #d2d2d2;
+    cursor:pointer;
+}
+
+input[type="checkbox"]:checked + label span {
+    background: #63b363;
+    box-shadow: none;
+}
